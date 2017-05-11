@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/aboutview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@mipmap/background">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:id="@+id/image"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Versi 1.2.1.0"
+        android:textColor="#bbb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/version"
+        android:layout_above="@+id/image"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp" />
+
+    <TextView
+        android:text="Network Dictionary"
+        android:textColor="#ffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:layout_marginBottom="15dp"
+        android:layout_above="@+id/image"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Copyright 2016-2017 Rohmad DJ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:textColor="#bbb"
+        android:id="@+id/copyright" />
+
+    <TextView
+        android:text="All rights reserved"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/copyright"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        android:textColor="#bbb"
+        android:id="@+id/reserved" />
+
+    <TextView
+        android:text="Sumber Buku : Kamus++ Jarkom oleh Budi Sotedjo Dharma O, M.M"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reserved"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:textSize="12dp"
+        android:textColor="#ccc"
+        android:id="@+id/textView" />
+
+</RelativeLayout>

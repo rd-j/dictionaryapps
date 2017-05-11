@@ -1,0 +1,83 @@
+body {
+    background:#CBCFD5;
+    margin:0;
+    padding:0;
+    color:#333;
+    font:normal 100% Arial, Helvetica, Verdana, sans-serif;
+    text-align:center;
+}
+img{
+    max-width:100%;
+}
+blockquote {
+  margin-left:2em;
+  margin-right:2em;
+  border-left:4px solid #ccc;
+  padding-left:1em;
+  font-style:italic;
+}
+.button{
+	background:#CBCFD5;
+	position:center;
+	text-align:center;
+	border:1px solid #fff;
+	padding:15px;
+	margin:5px auto 15px auto;
+}
+.button a{
+	text-transform:uppercase;
+	font-weight:bold;
+	padding:15px;
+	color:black;
+	text-decoration:none;
+}
+/* ELEMEN UTAMA */
+#wrapper{
+    background:#f5f5f5;
+    text-align:left;
+    width:auto;
+    margin:0 auto;
+    padding:0;
+    font-size:14px;
+}
+#content-wrapper{
+    background:#CBCFD5;
+    height:auto;
+}
+.posting{
+    background:#eaeaea;
+    margin:0 2px;
+    float:inside;
+    width:auto
+}
+#footer-wrapper{
+    background:#333;
+    overflow:hidden;
+    padding:10px;
+    font-size:10px;
+    color:#ddd
+}
+
+/* POSTING */
+.kotak-posting{
+    margin:0;
+    padding:0;
+    word-wrap:break-word;
+}
+.kotak-posting h3{
+    margin: .6em 0 .6em;
+    padding: 0;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.4em;
+    text-transform: uppercase;
+    color: #222;
+    border-bottom: 1px solid #c0c0c0;
+}
+.post{
+    background:#f5f5f5;
+    position:relative;
+    padding:5px;
+    margin:0;
+    border:1px solid #fff
+}
